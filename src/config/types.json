@@ -1,1 +1,25 @@
-{}
+{
+  "PocConsensusLog": {
+    "_enum": {
+      "Phantom": "Null",
+      "NextEpochData": "NextEpochDescriptor",
+      "NextConfigData": "NextConfigDescriptor",
+      "NextSolutionRangeData": "NextSolutionRangeDescriptor"
+    }
+  },
+  "NextEpochDescriptor": {
+    "randomness": "Randomness"
+  },
+  "NextConfigDescriptor": {
+    "_enum": {
+      "V0": "Null",
+      "V1": "NextConfigDescriptorV1"
+    }
+  },
+  "NextConfigDescriptorV1": {
+    "c": "(u64, u64)"
+  },
+  "NextSolutionRangeDescriptor": {
+    "solutionRange": "u64"
+  }
+}
