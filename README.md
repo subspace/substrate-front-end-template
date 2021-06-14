@@ -1,4 +1,4 @@
-# Substrate (Subspace) Front End Template
+# Substrate (Spartan) Front End Template
 
 **Notes:** This is a fork of [`substrate-front-end-template`](https://github.com/substrate-developer-hub/substrate-front-end-template) that adds functionaly for [Spartan PoC Consensus](https://github.com/subspace/substrate/tree/poc/bin/node-template-spartan)
 
