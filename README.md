@@ -1,8 +1,10 @@
-# Substrate Front End Template
+# Substrate (Subspace) Front End Template
+
+**Notes:** This is a fork of [`substrate-front-end-template`](https://github.com/substrate-developer-hub/substrate-front-end-template) that adds functionaly for [Spartan PoC Consensus](https://github.com/subspace/substrate/tree/poc/bin/node-template-spartan)
 
 This template allows you to create a front-end application that connects to a
-[Substrate](https://github.com/paritytech/substrate) node back-end with minimal
-configuration. To learn about Substrate itself, visit the
+[Spartan](https://github.com/subspace/substrate/tree/poc/bin/node-template-spartan) node back-end with minimal
+configuration. Spartan is built using Substrate. To learn about Substrate itself, visit the
 [Substrate Developer Hub](https://substrate.dev).
 
 The template is built with [Create React App](https://github.com/facebook/create-react-app)
@@ -17,7 +19,7 @@ The codebase is installed using [git](https://git-scm.com/) and [yarn](https://y
 
 ```bash
 # Clone the repository
-git clone https://github.com/substrate-developer-hub/substrate-front-end-template.git
+git clone https://github.com/subspace/substrate-front-end-template.git
 cd substrate-front-end-template
 yarn install
 ```
