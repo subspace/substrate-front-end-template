@@ -4,7 +4,10 @@
       "Phantom": "Null",
       "NextEpochData": "NextEpochDescriptor",
       "NextConfigData": "NextConfigDescriptor",
-      "NextSolutionRangeData": "NextSolutionRangeDescriptor"
+      "SolutionRangeData": "SolutionRangeDescriptor",
+      "SaltData": "SaltDescriptor",
+      "NextSolutionRangeData": "NextSolutionRangeDescriptor",
+      "NextSaltData": "NextSaltDescriptor"
     }
   },
   "NextEpochDescriptor": {
@@ -19,7 +22,16 @@
   "NextConfigDescriptorV1": {
     "c": "(u64, u64)"
   },
+  "SolutionRangeDescriptor": {
+    "solutionRange": "u64"
+  },
+  "SaltDescriptor": {
+    "salt": "u64"
+  },
   "NextSolutionRangeDescriptor": {
     "solutionRange": "u64"
+  },
+  "NextSaltDescriptor": {
+    "salt": "u64"
   }
 }

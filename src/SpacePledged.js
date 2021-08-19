@@ -28,8 +28,8 @@ function Main (props) {
           if (type.toString() === 'POC_') {
             const consensusLog = api.registry.createType('PocConsensusLog', data);
             switch (true) {
-              case consensusLog.isNextSolutionRangeData: {
-                const solutionRange = consensusLog.asNextSolutionRangeData.solutionRange.toBigInt();
+              case consensusLog.isSolutionRangeData: {
+                const solutionRange = consensusLog.asSolutionRangeData.solutionRange.toBigInt();
                 const estimatedSpace = Number(
                   MAX_U64 * SLOT_PROBABILITY[0] / SLOT_PROBABILITY[1] / solutionRange * PIECE_SIZE
                 );
